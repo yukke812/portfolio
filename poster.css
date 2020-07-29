@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+.back {
+    display:block;
+	position: fixed;
+	margin-top: 30px;
+
+}
+
+.back-hover {
+    display:none;
+	position: fixed;
+	margin-top: 30px;
+}
+
+
+.back-hover p{
+	position: absolute;
+	top:12px;
+	left:60px;
+	color: white;
+	font-size: 15px;
+}
+
+.back img,
+.back-hover img{
+	width: 100px;	
+}
+
+.back img{
+	background-color: rgba(255,255,255,0.50);
+	width:100px;
+	padding:15px 20px;
+}
+
+.back-hover img{
+	background-color: rgba(0,0,0,0.50);
+	width:100px;
+	padding:15px 20px;
+
+}
+
+.back-box:hover > .back {
+    display:none;
+}
+
+.back-box:hover > .back-hover {
+    display:block;
+}
+
+
+.title{
+	padding-top: 60px;
+	text-align: center;	
+}
+
+.title h1{
+	font-size: 35px;
+	font-family: 'Noto Sans JP', sans-serif;
+
+	font-weight: 500;
+}
+
+
+.top{
+	display: block;
+	margin:0 auto;
+	margin-bottom: 0px;
+}
+
+.top img{
+	max-width:800px;
+	margin:50px 0px;
+	height: 45vh;
+	width:90%;
+	text-align: center;
+	object-fit: cover;
+}
+
+.top-pic{
+	text-align: center;
+}
+
+.about-1{
+	margin:0% 10%;
+	width: 80vw;
+}
+
+.about-small {
+	margin-bottom: 25px;
+}
+
+.about-small h3{
+	font-weight:normal;
+	margin-bottom:12px;
+	display: inline-block;
+	padding-top: 2px;
+	border-radius:5px;
+	width:100px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+.about-small p{
+	margin-left: 20px;
+}
+
+.about-title{
+	background-color: gray;
+}
+
+
+.content{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 70px;
+}
+
+.content img{
+	height: 90vh;
+}
+
+.content p{
+	margin: 0 auto;
+	margin-bottom: 100px;
+	max-width: 700px;
+	width:70%;
+}
+
+
+.explanation p{
+	text-align: left;
+	margin-top: 50px;
+}
+
+ h2{
+	margin-top:150px;
+	margin-bottom: 100px;
+	font-weight: bold;
+	font-size:16px;
+}
+
+
+.procces{
+	margin: 0 auto;
+	max-width: 700px;
+	margin-top: 50px;
+}
+
+.procces p{
+	margin-bottom: 10px;
+}
+
+.procces img{
+	width: 31vh;
+	height: auto;
+}
+
+footer{
+	text-align: center;
+	margin: 20px;
+
+}
+small{
+	color: gray;
+	font-size: 12px;
+}
+
+@media screen and (max-width:700px) {
+	.top{
+	}
+	
+	.top img{
+		text-align: center;
+		height: 40vh;
+		margin-top: 20px;
+
+	}
+}
+
+@media screen and (min-width:700px) {
+	.about-1{
+		max-width: 700px;
+		display: table;
+ 		margin: 0 auto;
+	}
+}
